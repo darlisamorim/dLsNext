@@ -24,6 +24,13 @@
                   color: var(--color-first);
                   padding: 12px;
                   text-decoration: none;
+            
+                  &:hover {
+                        color: var(--yellow);
+                  }
+                  &:active {               
+                        color: var(--yellow);
+                  }
             }
 
 
