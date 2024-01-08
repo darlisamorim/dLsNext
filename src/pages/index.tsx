@@ -9,7 +9,7 @@ function Home() {
     <>
       <Header/>
 
-      <main>
+      <main> test
 
         <p>Home Page --- Main</p>
 
