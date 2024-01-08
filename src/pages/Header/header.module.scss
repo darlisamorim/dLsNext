@@ -1,4 +1,37 @@
 .header {
-      color: red;
-      background-color: var(--yellow);
+      height: 80px;
+      border-bottom: 5px solid var(--color-first);
+
+
+      .header_content {            
+            justify-content: space-between;
+            align-items: center;
+      }  
+
+      h1 {
+            font-size: var(--font-smaller);
+            background-color: var(--yellow);
+      }
+
+      .nav_header {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: var(--font-smaller);
+            font-weight: bold;
+      
+            
+            a {  
+                  color: var(--color-first);
+                  padding: 12px;
+                  text-decoration: none;
+            }
+
+
+      
+      }
+
+
+
+
+
 }

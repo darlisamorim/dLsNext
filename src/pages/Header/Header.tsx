@@ -1,10 +1,18 @@
 // React Import
 // import React from 'react'
 
-// Import's
+// Style Import  
 import styles from './header.module.scss';
+
+
+// Image Import's 
 import Image from 'next/image';
 import logo from '../../../public/images/logo.svg';
+
+
+// Links Import  
+import Link from 'next/link';
+
 
 // React Icons
 
@@ -14,10 +22,9 @@ function Header() {
 
     return (
         <>
-            {/* <header className={`${styles.header} container-flex`}> */}
-            <header className={`${styles.header} ${styles.classe2}`}>
+            <header className={`${styles.header} container_flex`}>
             
-                <div className="content-flex">
+                <div className={`${styles.header_content} content_flex`}>
 
                     <h1>
                         <a title="" href="/">
@@ -25,39 +32,45 @@ function Header() {
                         </a>
                     </h1>
 
-                    <nav className="">
+                    <nav className={styles.nav_header}>
+                        <h4 className='dn'>Testando Nol</h4>
+                                            
+                        <ul className={styles.nav_header}>
+                            <li>
+                                <Link href="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link href="/sobre-mim">Sobre Mim</Link>
+                            </li>
+                            <li>
+                                <Link href="/notfound">404!!!</Link>
+                            </li>
+                            <li>
+                                <Link href="/contato">Contato!!!</Link>
+                            </li>
 
-                        <ul className="">
-                            <li>
-                                <a title="Home | " href="/">Home</a>
-                            </li>
-                            <li>
-                                <a title="Sobre Mim | " href="/single">Sobre Mim</a>
-                            </li>
-                            <li>
-                                <a title="404!!! Página não encontrada. | " href="/notfound">404!!!</a>
-                            </li>
-                            <li>
-                                <a title="Entrar em Contato | " href="/contato">Contato</a>
-                            </li>
                         </ul>
 
-                        <ul className="">
-                            <li>
-                                <a title="LinkedIn | " href="#.ENV">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a title="GitHub | " href="#.ENV">GitHub</a>
-                            </li>
-                            <li>
-                                <a title="Inscreva-se | " href="/sign-up">Inscreva-se</a>
-                            </li>
-                            <li>
-                                <a title="Recuperar senha | " href="/forget">Recuperar senha</a>
-                            </li>
-                        </ul>
+                    </nav>                    
 
-                    </nav>
+                    <ul className="{styles.nav_header}">
+                            
+                        <li>
+                            <Link href="#.ENV">LinkedIn</Link>
+                        </li>
+                        <li>
+                            <Link href="#.ENV">GitHub</Link>
+                        </li>
+                        <li>
+                            <Link href="/sign-in">Entrar</Link>
+                        </li>
+                        <li>
+                            <Link href="/sign-up">Inscreva-se</Link>
+                        </li>
+                        <li>
+                            <Link href="/forget">Recuperar Acesso</Link>
+                        </li>
+                    </ul>
 
                 </div>
             </header>

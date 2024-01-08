@@ -70,7 +70,7 @@
 /*
  * Container's Block
  */
-.container-block {
+.container_block {
   width: var(--container-width);
   display: block;
 }
@@ -78,7 +78,7 @@
 /*
  * Content's Block
  */
-.content-block { 
+.content_block { 
   width: var(--content-width);
   max-width: var(--content-max-width);
   display: block;
@@ -88,7 +88,7 @@
 /*
  * Container's Flex
  */
-.container-flex {
+.container_flex {
   width: var(--container-width);
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +97,7 @@
 /*
  * Content's Flex
  */
-.content-flex {
+.content_flex {
   width: var(--content-width);
   max-width: var(--content-max-width);
   display: flex;
