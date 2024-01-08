@@ -20,12 +20,12 @@
 
 <hr>
 
-<h4>🔭  I’m currently working with ...</h4>
+<h4>🔭  Project Details ...</h4>
 
-<h5>UI Developer</h5>
+<h5>Portfolio in Next.JS </h5>
 <p >
 
-  Project Next.JS
+  New Project ....
 
 </p>
 
