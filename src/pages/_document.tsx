@@ -3,8 +3,8 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 
 // Import's
-import Metas from "./Metas/Metas";
-import Heading from "./Heading/Heading";
+import Metas from "./metas/Metas";
+import Heading from "./heading/Heading";
 
 
 // Construct Page

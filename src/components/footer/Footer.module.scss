@@ -1,0 +1,18 @@
+.footer {
+  height: 80px;
+  border-bottom: 5px solid var(--color-first);
+  background-color: var(--yellow);
+
+
+  .footer_content {            
+      justify-content: space-between;
+      align-items: center;
+  }  
+
+  h1 {
+      font-size: var(--font-smaller);
+      background-color: var(--yellow);
+  }
+
+
+}

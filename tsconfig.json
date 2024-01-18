@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/Heading/_backup", "src/pages/_document.tsx"  ],
+, "src/pages/heading/_backup", "src/pages/_document.tsx"  ],
   "exclude": [
     "node_modules"
   ]

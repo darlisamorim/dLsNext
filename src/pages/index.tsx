@@ -1,17 +1,18 @@
 // Import's
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import Header from "../components/header/Header";
+import Home from "./home/Home";
+import Footer from "../components/footer/Footer";
 
 
 // Construct Page
-function Home() {
+function Main() {
   return (
     <>
       <Header/>
 
-      <main> test
+      <main>
 
-        <p>Home Page --- Main</p>
+        <Home/>
 
       </main>
       
@@ -21,4 +22,4 @@ function Home() {
 }
 
 // Export Page
-export default Header
+export default Main

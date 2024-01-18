@@ -2,7 +2,7 @@
 // import React from 'react'
 
 // Style Import  
-import styles from './header.module.scss';
+import styles from './Header.module.scss';
 
 
 // Image Import's 
@@ -37,21 +37,39 @@ function Header() {
                                             
                         <ul className={styles.nav_header}>
                             <li>
-                                <Link href="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link href="/sobre-mim">Sobre Mim</Link>
-                            </li>
-                            <li>
-                                <Link href="/notfound">404!!!</Link>
-                            </li>
-                            <li>
-                                <Link href="/contato">Contato!!!</Link>
+                                <Link href="/">
+                                    home
+                                </Link>
                             </li>
 
+                            <li>
+                                <Link href="/abount">
+                                    Sobre Mim
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link href="/blog">
+                                    Blog
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link href="/notfound">
+                                    404!!!
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link href="/contato">
+                                    Contato!!!
+                                </Link>
+                            </li>
                         </ul>
 
-                    </nav>                    
+                    </nav>                   
+ 
+                    
 
                     <ul className="{styles.nav_header}">
                             
